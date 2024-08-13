@@ -25,9 +25,17 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
+      <p className="container px-4 mx-auto read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+   <div className="flex flex-col border-2 border-solid border-red-50 shadow-warmGlow">
+    <div className="flex flex-col text-warmRed">beepboop</div>
+    <div className="flex flex-col">beepboop1</div>
+    <div className="flex flex-col">beepboop2</div>
+   </div>
+      <h1 className="text-3xl font-extrabold underline-offset-0">
+    Hello world!
+  </h1>
     </>
   )
 }
